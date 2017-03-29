@@ -3,13 +3,14 @@
  */
 import React, { Component } from 'react';
 import {
-    StyleSheet,
-    Text,
-    View,
-    Image
+    StyleSheet, Text, View, Image, Animated, Easing
 } from 'react-native'
 
 class SplashScreen extends Component{
+
+    componentWillMount(){
+        this.animatedValue = new Animated.Value(1)
+}
 
     constructor(props){
         super(props);
@@ -35,6 +36,7 @@ class SplashScreen extends Component{
 
 
     render(){
+        const animatedStyle = { opacity: this.animatedValue}
         return(
             this.state.done ?
                 //if done, show all that is nested
@@ -42,9 +44,9 @@ class SplashScreen extends Component{
                 :
                 (
                 //Display Splash Screen
-                <View style = {[styles.container, this.props.backgroundColor]} >
+                <Animated.View style = {[styles.container, this.props.backgroundColor]} >
                     <Image style={styles.logo}  source = {this.props.logo}/>
-                </View>)
+                </Animated.View>)
         )
     }
 }

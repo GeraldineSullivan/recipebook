@@ -2,13 +2,14 @@
  * Created by geraldinesullivan on 16/03/2017.
  */
 
-//commit common code here for single code base.
+//you must commit common code here for single code base. This will work on both ios and android.
 
 import React, { Component } from 'react';
 import {
     StyleSheet,
     Text,
     View
+
 } from 'react-native';
 import SplashScreen from './splashScreen/splashScreen'
 
@@ -20,7 +21,7 @@ class App extends Component{
                      backgroundColor ={styles.splashScreenContainer}>
                 <View style={styles.container}>
                     <Text style={styles.welcome}>
-                        Success!
+                        Yay Success!
                     </Text>
                 </View>
             </SplashScreen>
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         margin: 10,
     },
-    //background colour for the splashscreen
+    //background colour for the splash screen
     splashScreenContainer:{
         backgroundColor: '#5A646D'
     }
