@@ -12,21 +12,18 @@ import {
 
 } from 'react-native';
 import SplashScreen from './splashScreen/splashScreen'
+import AuthContainer from './authContainer/authContainer'
 
 class App extends Component{
     render(){
         return(
-            //splash screen wraps around content
-            <SplashScreen duration = {3000} logo ={require('.././assets/logo/splash.png')}
-                     backgroundColor ={styles.splashScreenContainer}>
-                <View style={styles.container}>
+            //Splash Screen wraps around content
+            //Splash Screen is called using require for logo. Duration 3000 is 3 seconds.
+            //background colour of splash screen is called from SplashScreenContainer style at bottom of page.
+            <SplashScreen duration = {3000} logo ={require('.././assets/logo/splash.png')} backgroundColor ={styles.splashScreenContainer}>
+                <AuthContainer>
 
-                    <Text style={styles.welcome}>
-                        Yay Success!
-                        Custom font is working :D!
-
-                    </Text>
-                </View>
+                </AuthContainer>
             </SplashScreen>
         )
     }
