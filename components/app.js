@@ -17,11 +17,14 @@ class App extends Component{
     render(){
         return(
             //splash screen wraps around content
-            <SplashScreen duration = {3000} logo ={require('./../assets/logo/splash.png')}
+            <SplashScreen duration = {3000} logo ={require('.././assets/logo/splash.png')}
                      backgroundColor ={styles.splashScreenContainer}>
                 <View style={styles.container}>
+
                     <Text style={styles.welcome}>
                         Yay Success!
+                        Custom font is working :D!
+
                     </Text>
                 </View>
             </SplashScreen>
@@ -37,7 +40,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF',
     },
     welcome: {
-        fontSize: 20,
+        fontFamily: 'gillsans',
+        fontWeight: 'bold',
+        fontSize: 30,
         textAlign: 'center',
         margin: 10,
     },
@@ -45,6 +50,8 @@ const styles = StyleSheet.create({
     splashScreenContainer:{
         backgroundColor: '#5A646D'
     }
+
+
 
 });
 
