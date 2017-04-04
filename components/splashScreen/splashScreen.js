@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     logo: {
+        //image size must be proportional to source image.
         width: 141,
         height: 43
     }

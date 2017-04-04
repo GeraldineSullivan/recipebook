@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     logoContainer: {
         alignItems: 'center',
         flexGrow: 1,
-        paddingTop:40
+        paddingTop:50
     }
 
 });

@@ -21,6 +21,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1B02B86D8EB24EC7AE67CF22 /* gillsans_sembold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA950561110A4A1BB8D04076 /* gillsans_sembold.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,12 +34,12 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* recipebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* recipebookTests.m */; };
+		33A29E5DBDDF4B2C855D6086 /* gillsans_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D39D92125F14ACA8A12205B /* gillsans_bold.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		33A29E5DBDDF4B2C855D6086 /* gillsans_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D39D92125F14ACA8A12205B /* gillsans_bold.ttf */; };
-		9185B5E803DD43278F9C7B51 /* gillsans_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8DF63ABF4384711A99A6D23 /* gillsans_light.ttf */; };
-		3B2FC7BBA279491EB1AD9B82 /* gillsans_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C78EAC4044BD3AE6FD81A /* gillsans_semibold.ttf */; };
-		8C1C4C6F18804E4290E1258B /* gillsans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11DF12991D0F417CB02D7AA6 /* gillsans.ttf */; };
+		A9CEC65E7D0143D28A0D00C7 /* gillsans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85B5EE2DD0E44EAA803E9CE9 /* gillsans.ttf */; };
+		CCDF72539F444D64A85BD9C1 /* gillsans_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A04281F854C4346A7E1628F /* gillsans_light.ttf */; };
+		AA30729F8BE542A3B3477DAA /* gillsans_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D7A9DA287B4249A3539ADB /* gillsans_semibold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,13 +256,14 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* recipebook-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recipebook-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* recipebook-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recipebook-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A04281F854C4346A7E1628F /* gillsans_light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gillsans_light.ttf; path = ../assets/fonts/gillsans_light.ttf; sourceTree = "<group>"; };
+		5D39D92125F14ACA8A12205B /* gillsans_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gillsans_bold.ttf; path = ../assets/fonts/gillsans_bold.ttf; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		5D39D92125F14ACA8A12205B /* gillsans_bold.ttf */ = {isa = PBXFileReference; name = "gillsans_bold.ttf"; path = "../assets/fonts/gillsans_bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A8DF63ABF4384711A99A6D23 /* gillsans_light.ttf */ = {isa = PBXFileReference; name = "gillsans_light.ttf"; path = "../assets/fonts/gillsans_light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2D6C78EAC4044BD3AE6FD81A /* gillsans_semibold.ttf */ = {isa = PBXFileReference; name = "gillsans_semibold.ttf"; path = "../assets/fonts/gillsans_semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		11DF12991D0F417CB02D7AA6 /* gillsans.ttf */ = {isa = PBXFileReference; name = "gillsans.ttf"; path = "../assets/fonts/gillsans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85B5EE2DD0E44EAA803E9CE9 /* gillsans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gillsans.ttf; path = ../assets/fonts/gillsans.ttf; sourceTree = "<group>"; };
+		FA950561110A4A1BB8D04076 /* gillsans_sembold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gillsans_sembold.ttf; path = ../assets/fonts/gillsans_sembold.ttf; sourceTree = "<group>"; };
+		66D7A9DA287B4249A3539ADB /* gillsans_semibold.ttf */ = {isa = PBXFileReference; name = "gillsans_semibold.ttf"; path = "../assets/fonts/gillsans_semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -431,6 +433,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		72C87C64D16B4AFBAA829F1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D39D92125F14ACA8A12205B /* gillsans_bold.ttf */,
+				3A04281F854C4346A7E1628F /* gillsans_light.ttf */,
+				FA950561110A4A1BB8D04076 /* gillsans_sembold.ttf */,
+				85B5EE2DD0E44EAA803E9CE9 /* gillsans.ttf */,
+				66D7A9DA287B4249A3539ADB /* gillsans_semibold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,18 +503,6 @@
 				2D02E4901E0B4A5D006451C7 /* recipebook-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		72C87C64D16B4AFBAA829F1B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5D39D92125F14ACA8A12205B /* gillsans_bold.ttf */,
-				A8DF63ABF4384711A99A6D23 /* gillsans_light.ttf */,
-				2D6C78EAC4044BD3AE6FD81A /* gillsans_semibold.ttf */,
-				11DF12991D0F417CB02D7AA6 /* gillsans.ttf */,
-			);
-			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -862,9 +864,10 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				33A29E5DBDDF4B2C855D6086 /* gillsans_bold.ttf in Resources */,
-				9185B5E803DD43278F9C7B51 /* gillsans_light.ttf in Resources */,
-				3B2FC7BBA279491EB1AD9B82 /* gillsans_semibold.ttf in Resources */,
-				8C1C4C6F18804E4290E1258B /* gillsans.ttf in Resources */,
+				CCDF72539F444D64A85BD9C1 /* gillsans_light.ttf in Resources */,
+				1B02B86D8EB24EC7AE67CF22 /* gillsans_sembold.ttf in Resources */,
+				A9CEC65E7D0143D28A0D00C7 /* gillsans.ttf in Resources */,
+				AA30729F8BE542A3B3477DAA /* gillsans_semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
