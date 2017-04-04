@@ -46,10 +46,15 @@ class LoginForm extends Component{
                     />
                 </TouchableOpacity>
 
+
+
                 <View style={styles.rowStyle2}>
-                    <Text style={styles.text2}>
+
+                        <Text style={styles.text2} onPress={() => console.log(' You can make this clickable')}>
                         Sign Up
-                    </Text>
+                        </Text>
+
+
                     <Text style={styles.divider}>
                         |
                     </Text>
@@ -117,7 +122,7 @@ const styles = StyleSheet.create({
         fontFamily: 'gillsans',
         fontWeight: 'bold',
         color: 'white',
-        fontSize: 20
+        fontSize: 18
     },
 
     divider: {
