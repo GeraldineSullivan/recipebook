@@ -6,6 +6,8 @@ import {
     StyleSheet, Text, View, Image
 } from 'react-native'
 
+import LoginContainer from './loginContainer/loginContainer'
+
 class AuthContainer extends Component{
     constructor (props){
         super(props);
@@ -18,7 +20,7 @@ class AuthContainer extends Component{
 
                 !this.state.isAuth?
                     //User Not Authenticated
-                    <LogInContainer />
+                    <LoginContainer />
                     :
                     //User Is Authenticated
                     <Text>

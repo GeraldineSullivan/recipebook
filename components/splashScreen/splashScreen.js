@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import {
-    StyleSheet, Text, View, Image
+    StyleSheet, View, Image
 } from 'react-native'
 
 class SplashScreen extends Component{
