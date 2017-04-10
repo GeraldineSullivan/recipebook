@@ -5,26 +5,36 @@
  */
 
 import React, { Component } from 'react';
-import {TextInput, Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {TextInput, Text, View, StyleSheet, Image, TouchableOpacity, StatusBar} from 'react-native';
 
 class LoginForm extends Component{
     render() {
         return(
+
+
             //in Android, there is an underline inside TextInputs by default. Must set to (0,0,0,0) to make invisible
             //You can add a placeholder to tell the user what to input. Added light grey to this text.
             //I've used Touchable Opacity for the login button below. Blinks when clicked.
 
             <View style={styles.container}>
+
+                <StatusBar
+                    barStyle="light-content"
+                />
+
                 <TextInput
                     placeholder="username"
                     placeholderTextColor= "#DDDDDD"
                     underlineColorAndroid='rgba(0,0,0,0)'
+                    autoCapitalize="none"
+                    autoCorrect={false}
                     style={styles.input}
                 />
 
                 <TextInput
                     placeholder="password"
                     placeholderTextColor= "#DDDDDD"
+                    secureTextEntry
                     underlineColorAndroid='rgba(0,0,0,0)'
                     style={styles.input}
                 />
@@ -93,7 +103,7 @@ const styles = StyleSheet.create({
     },
 
     login: {
-        //image size must be proportional to source image, or it wont work.
+        //image size must be proportional to source image or it wont work.
         width: 170,
         height: 51
     },
