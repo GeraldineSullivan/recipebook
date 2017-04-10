@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
         fontFamily: 'gillsans',
         // If using elsewhere, please do not put any font weight (remove line) if you need the "regular" Gill Sans font.
         // Other weights that I've made available are "light" and "semibold"
-        // NOTE: found that can only use normal, bold and italic in React. Might be a way around though
+        // UPDATE NOTE: found that we can only use normal, bold and italic in React. Might be a way around though
+        // with renaming, so I'll leave the files in for now.
         fontWeight: 'bold',
         fontSize: 30,
         textAlign: 'center',

@@ -90,14 +90,12 @@ const styles = StyleSheet.create({
         paddingHorizontal: 15,
         fontFamily: 'gillsans',
         fontSize: 20
-
     },
 
     login: {
-        //image size must be proportional to source image.
+        //image size must be proportional to source image, or it wont work.
         width: 170,
         height: 51
-
     },
 
     loginContainer: {
